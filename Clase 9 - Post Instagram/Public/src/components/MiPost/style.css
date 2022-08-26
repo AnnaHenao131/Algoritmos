@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Borde{
+    width: 25%;
+    height: auto;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 0px 15px;
+}
+
+.header img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.header .headprofile {
+    display: flex;
+}
+
+.header .Name{
+    padding: 10px;
+}
+
+.header .Name h2{
+    font-size: 1rem;
+}
+
+.header .dos{
+    width: 25px;
+    height: 25px;
+    margin: 20px 10px 10px 10px;
+}
+
+.photo img{
+    margin-left: 3%;
+    padding: 5px 0 5px 0;
+    width: 95%;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.icons img{
+    width: 25px;
+    height: 25px;   
+}
+
+.description{
+    margin: 3%;
+    font-size:0.8rem;    
+}
+
+.views {
+    font-size:0.8rem;
+    font-weight: bold;
+
+}
+
+.username{
+    margin-top: 2%;
+    font-size:0.8rem;
+}

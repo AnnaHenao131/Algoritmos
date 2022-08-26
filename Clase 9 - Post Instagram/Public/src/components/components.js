@@ -1,0 +1,1 @@
+export {default as MiPost } from "./MiPost/post.js"
